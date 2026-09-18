@@ -64,6 +64,13 @@ nav {
   max-width: 50%;
 }
 
+.hero-container button {
+  background-color: var(--button-background);
+  padding: 5px 2%;
+  border-radius: 5px;
+  color: var(--light-grey);
+}
+
 .cards-section {
   padding: 40px;
 }
@@ -78,6 +85,20 @@ nav {
   display: flex;
   justify-content: center;
   gap: 2%;
+}
+
+.card {
+  width: 25%;
+  padding: 2%;
+}
+
+.card img {
+  max-width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+  border: solid var(--dark-blue);
 }
 
 .quote-section {
