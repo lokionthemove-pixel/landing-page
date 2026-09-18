@@ -7,11 +7,22 @@
 
 body {
   margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  font-size: 16px;
+  cursor: pointer;
 }
 
 header {
   background-color: var(--dark-blue);
   padding: 0 0 2% 0;
+}
+
+header h2 {
+  font-size: 24px;
+  color: var(--light-grey);
 }
 
 header ul {
@@ -49,6 +60,12 @@ nav {
 
 .hero-section h1 {
   color: var(--light-grey);
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-section p {
+  font-size: 18px;
 }
 
 .hero-section img {
@@ -103,7 +120,7 @@ nav {
 
 .quote-section {
   background-color: var(--dark-grey);
-  padding: 2%;
+  padding: 5% 0;
 }
 
 .quote-container {
@@ -116,11 +133,16 @@ nav {
 
 .quote-container figcaption {
   align-self: flex-end;
+  font-size: 20px;
 }
 
 .quote-container blockquote {
   margin: 0;
   text-align: justify;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--dark-blue);
 }
 
 .cta-container {
@@ -140,6 +162,7 @@ nav {
   border: solid 2px var(--light-grey);
   border-radius: 5px;
   color: var(--light-grey);
+  font-weight: 900;
 }
 
 .cta-container h3 {
