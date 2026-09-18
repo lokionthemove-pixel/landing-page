@@ -11,6 +11,7 @@ body {
 
 header {
   background-color: var(--dark-blue);
+  padding: 0 0 2% 0;
 }
 
 header ul {
@@ -25,30 +26,117 @@ nav {
 }
 
 .header-container {
-  padding: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: var(--light-grey);
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.hero-section {
+  background-color: var(--dark-blue);
+  color: var(--dark-grey);
+  padding-bottom: 40px;
 }
 
 .hero-container {
   display: flex;
   justify-content: space-between;
-  padding: 40px;
-  background-color: var(--dark-blue);
-  color: var(--dark-grey);
+  max-width: 75%;
+  margin: 0 auto;
 }
 
-.hero-container h1 {
+.hero-section h1 {
   color: var(--light-grey);
 }
 
-.hero-container img {
-  max-width: 300px;
+.hero-section img {
   border-radius: 5px;
+  max-width: 100%;
 }
 
 .hero-left {
-  max-width: 300px;
+  max-width: 40%;
+}
+
+.hero-right {
+  max-width: 50%;
+}
+
+.cards-section {
+  padding: 40px;
+}
+
+.cards-container {
+  max-width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.quote-section {
+  background-color: var(--dark-grey);
+  padding: 2%;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  max-width: 50%;
+}
+
+.quote-container figcaption {
+  align-self: flex-end;
+}
+
+.quote-container blockquote {
+  margin: 0;
+  text-align: justify;
+}
+
+.cta-container {
+  max-width: 75%;
+  background-color: var(--button-background);
+  margin: 3% auto;
+  padding: 1%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cta-container button {
+  align-self: center;
+  padding: 5px 2%;
+  background-color: var(--button-background);
+  border: solid 2px var(--light-grey);
+  border-radius: 5px;
+  color: var(--light-grey);
+}
+
+.cta-container h3 {
+  color: var(--light-grey);
+  margin-bottom: 0;
+}
+
+.cta-container p {
+  color: var(--dark-grey);
+  margin-top: 5px;
+}
+
+footer {
+  background-color: var(--dark-blue);
+  padding: 1%;
+}
+
+footer p {
+  color: var(--dark-grey);
+  text-align: center;
 }
